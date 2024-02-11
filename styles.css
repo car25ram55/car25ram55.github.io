@@ -60,11 +60,16 @@ navbar {
   }
 
 .welcome-message .line {
-    font-size: 1.55rem; /* Keeps the larger font size for better readability */
-    margin: 0.5rem 0; /* Keeps a bit of spacing between lines for readability */
     text-align: center; /* Centers the text of paragraphs with class 'line' */
     /* Additional adjustments for line-height or font-weight as previously mentioned */
   }
+
+  .welcome-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
 
 
   
