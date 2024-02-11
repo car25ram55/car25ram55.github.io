@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 .full-width-image {
     width: 100%;
     height: auto; /* Adjust based on the content, you can also set a specific height */
@@ -42,4 +46,26 @@ navbar {
 .custom-border {
     border: 50px solid black; /* You can change the '10px' to any size you want */
   }
+
+.welcome-message p {
+    font-size: 1.25rem; /* Adjusts the size for better readability and presence */
+    margin: 0.5rem 0; /* Adds a bit of spacing between lines for readability */
+    font-weight: normal; /* Adjusts the weight of the font, if desired */
+    line-height: 1.6; /* Improves the readability by adjusting the height between lines */
+  }
+
+.welcome-message h3 {
+    margin-bottom: 1rem; /* Adjust this value as needed to increase space */
+    /* Other styling properties for h1 */
+  }
+
+.welcome-message .line {
+    font-size: 1.55rem; /* Keeps the larger font size for better readability */
+    margin: 0.5rem 0; /* Keeps a bit of spacing between lines for readability */
+    text-align: center; /* Centers the text of paragraphs with class 'line' */
+    /* Additional adjustments for line-height or font-weight as previously mentioned */
+  }
+
+
+  
   
